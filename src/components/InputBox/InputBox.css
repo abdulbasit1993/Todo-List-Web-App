@@ -1,0 +1,42 @@
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.addBtn {
+  border: none;
+  background-color: rgb(0, 76, 218);
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all ease-in 0.2s;
+}
+
+.addBtn:hover {
+  border: none;
+  background-color: rgb(0, 48, 138);
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.inputBox {
+  width: 300px;
+  height: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.inputBox:focus {
+  outline: none;
+}

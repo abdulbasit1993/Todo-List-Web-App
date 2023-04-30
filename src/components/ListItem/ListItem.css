@@ -1,0 +1,32 @@
+.container {
+  background-color: #fff;
+  width: 40%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemText {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.iconBtn {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
